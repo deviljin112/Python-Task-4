@@ -8,12 +8,8 @@ user_details = {
     "hobbies": ["skating", "gaming", "coding"],
 }
 
-print(user_details)
 del user_details["grades"]
-print(user_details)
-
 user_details["age"] = 20
-print(user_details)
 
 for k, v in user_details.items():
     print(type(v))
