@@ -12,7 +12,7 @@ del user_details["grades"]
 user_details["age"] = 20
 user_details["course"] = "Business Management"
 
-for k, v in user_details.items():
+for v in user_details.values():
     print(type(v))
 
 print(user_details["hobbies"][::-1])
